@@ -1,0 +1,89 @@
+
+body {
+    
+    margin: 0;
+    padding: 20px;
+    display: grid; 
+    place-items: center; 
+    background-color: #13534c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+ 
+  .container {
+    display: grid; 
+    grid-template-columns: auto ;
+    color:#023038 ; 
+  
+     
+  }
+  
+  
+  .form-group {
+    background: #086547; 
+    padding: 1.2em;
+    border-radius: 15px; 
+    margin-right:auto; 
+    margin-top: 1rem;
+  }
+  
+
+  
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  textarea {
+    background-color: #848484;
+  }
+  
+  input::placeholder,
+  textarea::placeholder {
+    color: #0f0e0e; 
+  }
+  
+  button {
+    background-color: #060474;
+    color: #54859f; 
+    border-radius: 5px; 
+  }
+  
+  button:hover {
+    cursor: pointer; 
+    background-color: #074a23; 
+    color: #19020d; 
+  }
+  
+ 
+ 
+  table {
+    border-collapse: separate;
+    border-spacing: 15;
+    border-radius: 19px; 
+    overflow: hidden; 
+  }
+  
+  
+  
+  
+  thead tr:first-child:hover {
+
+    font-weight: bolder;
+  }
+  
+  tr:not(:first-child) {
+    background-color: #000000;
+    color: #eaeaea;
+  }
+  
+  
+  
+  th,
+  td {
+    padding: 18px; 
+  }
+  
+  tr:hover {
+    background-color: #036d4a; 
+  }
+  
